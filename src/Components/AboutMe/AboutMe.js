@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import nishanPic2 from '../../images/nishan profile 2.png';
+// import nishanPic2 from '../../images/nishan profile 2.png';
 import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Skill from '../Skill/Skill';
@@ -9,6 +9,8 @@ import './AboutMe.css';
 import Bounce from 'react-reveal/Bounce';
 
 const AboutMe = () => {
+    const nishanPic2 = 'https://i.ibb.co/PM4ywV6/nishan-profile-2.png';
+    
     return (
         <section id='about-me' className='mt-5 pt-5 mb-5'>
             <Container>

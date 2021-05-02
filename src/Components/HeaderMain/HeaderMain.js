@@ -1,17 +1,14 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import nishanPic from '../../images/nishan profile1.png';
 import './HeaderMain.css';
 import Typed from 'react-typed';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import nishan5 from '../../images/nishan5 (1).jpg';
-import nishan4 from '../../images/nishan4.jpg';
 import Fade from 'react-reveal/Fade';
 import Particles from 'react-particles-js';
 
 const HeaderMain = () => {
+    const nishan4 = 'https://i.ibb.co/DgX996m/nishan4.jpg';
     return (
         <>
             <Particles
