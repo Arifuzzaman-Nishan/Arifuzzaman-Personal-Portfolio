@@ -6,11 +6,11 @@ import Footer from '../Footer/Footer';
 import HeaderMain from '../HeaderMain/HeaderMain';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import Projects from '../Projects/Projects';
-// import './Home.css';
+import './Home.css';
 
 const Home = () => {
     return (
-        <div>
+        <div id='home' className='bg'>
             <NavigationBar />
             <HeaderMain />
             <AboutMe />

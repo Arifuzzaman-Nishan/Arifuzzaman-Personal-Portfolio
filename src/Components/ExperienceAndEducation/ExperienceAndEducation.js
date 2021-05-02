@@ -28,8 +28,8 @@ const ExperienceAndEducation = () => {
     ]
     return (
         <div>
-            <h2 className='my-5 text-center'>EDUCATION</h2>
-            <Row className=''>
+            <h2 className='my-5 text-center text-white'>EDUCATION</h2>
+            <Row>
                 {
                     educationData.map(education => <ShowExperienceAndEducationData
                         education={education} 

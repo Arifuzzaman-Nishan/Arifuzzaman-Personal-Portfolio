@@ -1,3 +1,6 @@
-body{
-    background-color: #111111;
+.primary-color{
+    color: #FFB912;
+}
+body {
+    background: #111111 !important;
 }

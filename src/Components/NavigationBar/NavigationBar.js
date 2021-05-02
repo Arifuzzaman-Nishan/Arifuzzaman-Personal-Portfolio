@@ -5,7 +5,7 @@ import './NavigationBar.css';
 
 const NavigationBar = () => {
     return (
-        <Navbar sticky="top" bg='dark' expand="lg">
+        <Navbar className='background' sticky="top" expand="lg">
             <Container>
                 <Navbar.Brand className='brand' href="#home">
                     <img className='logo' src={logo} alt="logo.." />
@@ -14,11 +14,11 @@ const NavigationBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link className='nav-link text-white' href="#home">Home</Nav.Link>
-                        <Nav.Link className='nav-link text-white' href="#link">About me</Nav.Link>
-                        <Nav.Link className='nav-link text-white' href="#home">Services</Nav.Link>
-                        <Nav.Link className='nav-link text-white' href="#link">How work</Nav.Link>
-                        <Nav.Link className='nav-link text-white' href="#home">Portfolio</Nav.Link>
-                        <Nav.Link className='nav-link text-white' href="#link">Contacts</Nav.Link>
+                        <Nav.Link className='nav-link text-white' href="#about-me">About me</Nav.Link>
+                        {/* <Nav.Link className='nav-link text-white' href="#home">Services</Nav.Link> */}
+                        <Nav.Link className='nav-link text-white' href="#blog">Blog</Nav.Link>
+                        <Nav.Link className='nav-link text-white' href="#projects">Portfolio</Nav.Link>
+                        <Nav.Link className='nav-link text-white' href="#contacts">Contacts</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -26,7 +26,7 @@ const HeaderMain = () => {
                         backSpeed={50}
                         loop
                     />
-                    <article className=''>
+                    <article className='text-white'>
                         <p>I am Web developer with knowing some framework for the frontend and the backend. I know Basic MongoDB Database but basically I am a MERN developer and also I am a competitive programmer.</p>
                     </article>
                     <div className='mt-5'>

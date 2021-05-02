@@ -9,13 +9,13 @@ const ShowSkill = ({ data }) => {
             <div className='m-auto' style={{width:'10rem'}}>
                 <CircularProgressbar value={data.percentage} text={`${data.percentage}%`}
                  styles={buildStyles({
-                    // textColor: "red",
+                    textColor: "white",
                     pathColor: "#FFB400",
                     // trailColor: "gold"
                   })} 
                 />
             </div>
-            <h5 style={{textTransform:'uppercase'}} className='text-center mt-3'>{data.name}</h5>
+            <h5 style={{textTransform:'uppercase'}} className='text-center text-white mt-3'>{data.name}</h5>
         </Col>
     );
 };

@@ -7,7 +7,7 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 const ShowExperienceAndEducationData = ({ education }) => {
     const { name, degree, varsityName, gpa, year } = education;
     return (
-        <Col md={4} className='mt-2 mb-5 '>
+        <Col md={4} className='mt-2 mb-5 text-white'>
             <div className='icon-div'>
                 <FontAwesomeIcon className='icon' icon={faGraduationCap}/>
             </div>

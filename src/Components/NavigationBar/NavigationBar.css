@@ -18,10 +18,15 @@
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     border-top: 0.1875rem solid rgb(255, 255, 255 , 0);
+    font-weight: 800;
 }
 .brand{
     max-width: 60px;
 }
 .nav-link:hover{
     border-top: 0.1875rem solid orange;
+}
+
+.background{
+    background-color: grey;
 }

@@ -9,16 +9,16 @@ import ExperienceAndEducation from '../ExperienceAndEducation/ExperienceAndEduca
 
 const AboutMe = () => {
     return (
-        <section className='mt-5 pt-5 mb-5'>
+        <section id='about-me' className='mt-5 pt-5 mb-5'>
             <Container>
-                <h1 className='text-center mb-5'>ABOUT ME</h1>
+                <h1 className='text-center text-white mb-5'>ABOUT <span className='primary-color'>ME</span> </h1>
                 <Row className='d-flex align-items-center'>
                     <Col md={6}>
                         <div className='img-div'>
                             <img className='img-fluid' src={nishanPic2} alt="" />
                         </div>
                     </Col>
-                    <Col className='mt-5' md={6}>
+                    <Col className='mt-5 text-white' md={6}>
                         <h5>First Name: Arifuzzaman</h5>
                         <h5>Last Name: Nishan</h5>
                         <h5>Address: Dhaka, Bangladesh</h5>
