@@ -2,6 +2,7 @@ import React from 'react';
 import AboutMe from '../AboutMe/AboutMe';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 import HeaderMain from '../HeaderMain/HeaderMain';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import Projects from '../Projects/Projects';
@@ -16,6 +17,7 @@ const Home = () => {
             <Projects />
             <Blog />
             <Contact />
+            <Footer/>
         </div>
     );
 };
