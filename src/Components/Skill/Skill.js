@@ -44,7 +44,7 @@ const Skill = () => {
     ]
     return (
         <div className='mt-5 pt-5'>
-            <h2 className='text-center text-white mb-5 pb-5'>MY SKILLS</h2>
+            <h2 className='text-center text-warning mb-5 pb-5'>MY SKILLS</h2>
             <Row>
                 {
                     skillData.map(data => <ShowSkill data={data}></ShowSkill>)

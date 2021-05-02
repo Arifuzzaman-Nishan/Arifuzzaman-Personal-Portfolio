@@ -31,19 +31,23 @@ const ShowProject = ({ projectData }) => {
                             <span className='mr-2 mb-2 p-2 badge badge-secondary'>{technology}</span>
                         </h5>)
                     }
-                    <div className='mt-2'>
-                        <a href={live} target='_blank'>
-                            <button className='btn btn-danger mb-3 mr-3'>
-                                <FontAwesomeIcon className='mr-2' icon={faGlobe} />
+                    <div className='mt-2 d-md-flex'>
+                        <div className='mb-3'>
+                            <a href={live} target='_blank'>
+                                <button className='btn btn-danger mr-3'>
+                                    <FontAwesomeIcon className='mr-2' icon={faGlobe} />
                                 Website
                             </button>
-                        </a>
-                        <a href={github} target='blank'>
-                            <button className='btn btn-danger'>
-                                <FontAwesomeIcon className='mr-2' icon={faGithub} />
-                        Github
-                    </button>
-                        </a>
+                            </a>
+                        </div>
+                        <div>
+                            <a href={github} target='blank'>
+                                <button className='btn btn-danger'>
+                                    <FontAwesomeIcon className='mr-2' icon={faGithub} />
+                                Github
+                            </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </Col>

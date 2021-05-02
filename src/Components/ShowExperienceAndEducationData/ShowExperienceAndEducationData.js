@@ -12,7 +12,7 @@ const ShowExperienceAndEducationData = ({ education }) => {
                 <FontAwesomeIcon className='icon' icon={faGraduationCap}/>
             </div>
             <div className='text-center education-style'>
-                <h3>{name}</h3>
+                <h3 className='text-danger'>{name}</h3>
                 <h4>{degree}</h4>
                 <h5>{varsityName}</h5>
                 <h6>{gpa}</h6>

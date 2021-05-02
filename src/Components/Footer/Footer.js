@@ -10,8 +10,8 @@ const Footer = () => {
         <footer className='mt-5 mb-5 pt-5 pb-5'>
             <Container className='text-center'>
                 <div className='mb-5 text-white'>
-                    <h5>Copyright © 2021 | Arifuzzaman Nishan</h5>
-                    <h5>Address: Kollanpur, Dhaka</h5>
+                    <h5><small className='primary-color'>Copyright © 2021 | Arifuzzaman Nishan</small></h5>
+                    <h5><small className='text-danger'>Address: Kollanpur, Dhaka</small></h5>
                 </div>
                 <div>
                     <a href="https://www.linkedin.com/in/arifuzzaman-nishan-675b97189/" target="_blank">

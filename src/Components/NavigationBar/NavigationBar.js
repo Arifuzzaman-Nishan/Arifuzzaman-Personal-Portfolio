@@ -2,23 +2,24 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../../images/logo1.png';
 import './NavigationBar.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const NavigationBar = () => {
     return (
-        <Navbar bg='dark' className='background' sticky="top" expand="lg">
+        <Navbar className='background' sticky="top" expand="lg">
             <Container>
-                <Navbar.Brand className='brand' href="#home">
+                <AnchorLink offset='100' className='brand' href="#home">
                     <img className='logo' src={logo} alt="logo.." />
-                </Navbar.Brand>
+                </AnchorLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className='nav-link' href="#home">Home</Nav.Link>
-                        <Nav.Link className='nav-link' href="#about-me">About me</Nav.Link>
-                        {/* <Nav.Link className='nav-link text-white' href="#home">Services</Nav.Link> */}
-                        <Nav.Link className='nav-link' href="#blog">Blog</Nav.Link>
-                        <Nav.Link className='nav-link' href="#projects">Portfolio</Nav.Link>
-                        <Nav.Link className='nav-link' href="#contacts">Contacts</Nav.Link>
+                        <AnchorLink offset='100' className='nav-link' href="#home">Home</AnchorLink>
+                        <AnchorLink offset='100' className='nav-link' href="#about-me">About me</AnchorLink>
+                
+                        <AnchorLink offset='100' className='nav-link' href="#blog">Blog</AnchorLink>
+                        <AnchorLink offset='100' className='nav-link' href="#projects">Portfolio</AnchorLink>
+                        <AnchorLink offset='100' className='nav-link' href="#contacts">Contacts</AnchorLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

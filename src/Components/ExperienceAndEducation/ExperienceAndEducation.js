@@ -6,7 +6,7 @@ const ExperienceAndEducation = () => {
     const educationData = [
         {
             name: 'Under Graduation',
-            degree: 'B.Sc Eng. in Computer Science & Engineering',
+            degree: 'B.Sc in CSE',
             varsityName: 'Daffodil International University',
             gpa: '3.91',
             year: '2019 - current'
@@ -27,8 +27,8 @@ const ExperienceAndEducation = () => {
         }
     ]
     return (
-        <div>
-            <h2 className='my-5 text-center text-white'>EDUCATION</h2>
+        <div className='pb-5'>
+            <h2 className='my-5 text-center text-warning'>EDUCATION</h2>
             <Row>
                 {
                     educationData.map(education => <ShowExperienceAndEducationData
