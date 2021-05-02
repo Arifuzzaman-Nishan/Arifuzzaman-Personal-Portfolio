@@ -5,7 +5,7 @@ import './NavigationBar.css';
 
 const NavigationBar = () => {
     return (
-        <Navbar className='background' sticky="top" expand="lg">
+        <Navbar bg='dark' className='background' sticky="top" expand="lg">
             <Container>
                 <Navbar.Brand className='brand' href="#home">
                     <img className='logo' src={logo} alt="logo.." />
@@ -13,12 +13,12 @@ const NavigationBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className='nav-link text-white' href="#home">Home</Nav.Link>
-                        <Nav.Link className='nav-link text-white' href="#about-me">About me</Nav.Link>
+                        <Nav.Link className='nav-link' href="#home">Home</Nav.Link>
+                        <Nav.Link className='nav-link' href="#about-me">About me</Nav.Link>
                         {/* <Nav.Link className='nav-link text-white' href="#home">Services</Nav.Link> */}
-                        <Nav.Link className='nav-link text-white' href="#blog">Blog</Nav.Link>
-                        <Nav.Link className='nav-link text-white' href="#projects">Portfolio</Nav.Link>
-                        <Nav.Link className='nav-link text-white' href="#contacts">Contacts</Nav.Link>
+                        <Nav.Link className='nav-link' href="#blog">Blog</Nav.Link>
+                        <Nav.Link className='nav-link' href="#projects">Portfolio</Nav.Link>
+                        <Nav.Link className='nav-link' href="#contacts">Contacts</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

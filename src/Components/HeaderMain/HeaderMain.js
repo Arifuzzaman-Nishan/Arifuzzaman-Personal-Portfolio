@@ -6,6 +6,9 @@ import Typed from 'react-typed';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import nishan5 from '../../images/nishan5 (1).jpg';
+import nishan4 from '../../images/nishan4.jpg';
+
 
 const HeaderMain = () => {
     return (
@@ -40,7 +43,7 @@ const HeaderMain = () => {
                 </Col>
                 <Col md={6}>
                     <div className='img-div'>
-                        <img className='img-fluid' src={nishanPic} alt="" />
+                        <img className='img-fluid img-style' src={nishan4} alt="" />
                     </div>
                 </Col>
             </Row>

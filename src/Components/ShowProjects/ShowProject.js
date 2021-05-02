@@ -33,10 +33,10 @@ const ShowProject = ({ projectData }) => {
                     }
                     <div className='mt-2'>
                         <a href={live} target='_blank'>
-                            <button className='btn btn-danger mr-3'>
+                            <button className='btn btn-danger mb-3 mr-3'>
                                 <FontAwesomeIcon className='mr-2' icon={faGlobe} />
-                        Website
-                    </button>
+                                Website
+                            </button>
                         </a>
                         <a href={github} target='blank'>
                             <button className='btn btn-danger'>

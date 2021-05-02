@@ -52,7 +52,7 @@ const Projects = () => {
     return (
         <section id='projects' className='mt-5 mb-5'>
             <Container>
-                <h1 className='text-center text-white mb-5'>Projects</h1>
+                <h1 className='text-center text-white mb-5'>PROJECTS</h1>
                 <Row className='mt-5 mb-5 pb-5'>
                     {
                         projectsData.map(projectData => <ShowProject projectData={projectData}/>)

@@ -3,6 +3,9 @@
 .img-div{
     max-width: 500px;
 }
+.img-style{
+    border-radius: 50%;
+}
 
 .typed-text{
     font-size: 2rem;

@@ -21,7 +21,7 @@ const Contact = () => {
     return (
         <section id='contacts' className='mt-5 mb-5 pb-5 pt-5'>
             <Container className='text-white'>
-                <h1 className='text-center my-5'>Contact With Me</h1>
+                <h1 className='text-center my-5'>CONTACT WITH ME</h1>
                 <form className='m-auto' style={{ maxWidth: '40rem' }} onSubmit={sendEmail}>
                     <div className='mb-3'>
                         <label htmlFor="name">Your Name</label>

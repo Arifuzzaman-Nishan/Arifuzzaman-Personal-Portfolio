@@ -8,13 +8,14 @@
     width: 100%;
     object-fit: contain;
     border-radius: 50%;
+    border: 1px solid white;
 }
 .nav-link{
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 0.038rem;
     cursor: pointer;
-    /* color: white !important; */
+    color: #FFB912 !important;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     border-top: 0.1875rem solid rgb(255, 255, 255 , 0);
@@ -24,9 +25,9 @@
     max-width: 60px;
 }
 .nav-link:hover{
-    border-top: 0.1875rem solid orange;
+    border-top: 0.1875rem solid tomato;
 }
 
-.background{
+/* .background{
     background-color: grey;
-}
+} */
