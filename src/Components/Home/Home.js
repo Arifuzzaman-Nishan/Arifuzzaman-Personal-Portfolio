@@ -1,4 +1,9 @@
 import React from 'react';
+
+import { 
+    BrowserRouter as Router,
+ } from 'react-router-dom';
+
 import AboutMe from '../AboutMe/AboutMe';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
@@ -17,7 +22,7 @@ const Home = () => {
             <Projects />
             <Blog />
             <Contact />
-            <Footer/>
+            <Footer />
         </div>
     );
 };
