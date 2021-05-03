@@ -3,6 +3,7 @@ import React from 'react';
 import { 
     BrowserRouter as Router,
  } from 'react-router-dom';
+import particlesConfiq from '../../Confiq/ParticalConfiq';
 
 import AboutMe from '../AboutMe/AboutMe';
 import Blog from '../Blog/Blog';

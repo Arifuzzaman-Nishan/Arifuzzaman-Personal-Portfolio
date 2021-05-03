@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Fade from 'react-reveal/Fade';
 import Particles from 'react-particles-js';
+import particlesConfiq from '../../Confiq/ParticalConfiq';
 
 const HeaderMain = () => {
     const nishan4 = 'https://i.ibb.co/DgX996m/nishan4.jpg';
@@ -13,9 +14,10 @@ const HeaderMain = () => {
         <>
             <Particles
                 canvasClassName="example"
-                />
+                params={particlesConfiq}
+            />
             <Fade top big>
-                <Container  className='mt-5 pt-5 pb-5 mb-5  main-section'>
+                <Container className='mt-5 pt-5 pb-5 mb-5  main-section'>
                     <Row className='align-items-center'>
                         <Col className='mb-5' md={6}>
                             <h1 className='name-style'>Hello,<span></span></h1>

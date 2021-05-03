@@ -21,6 +21,10 @@ const Skill = () => {
             percentage: '60'
         },
         {
+            name: 'material ui',
+            percentage: '80',
+        },
+        {
             name: 'Javascript',
             percentage: '60'
         },
@@ -35,10 +39,6 @@ const Skill = () => {
         {
             name: 'MongoDB',
             percentage: '40',
-        },
-        {
-            name: 'C++',
-            percentage: '80',
         },
 
     ]
