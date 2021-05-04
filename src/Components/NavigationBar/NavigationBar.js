@@ -22,13 +22,6 @@ const NavigationBar = () => {
 
     window.addEventListener('scroll', changeNavbarColor);
 
-    // const handleChangeIcon = (value) => {
-    //     console.log(value);
-    //     setNavIcon(value);
-    // }
-
-    console.log(navIcon)
-
     return (
         <Navbar className={`${colorChange && 'background'} navbar-dark`} sticky="top" expand="lg">
             <Container>
@@ -36,7 +29,7 @@ const NavigationBar = () => {
                     <img className='logo' src={logo} alt="logo.." />
                 </AnchorLink>
 
-                <Navbar.Toggle className='' onClick={() => setNavIcon(!navIcon)} aria-controls="basic-navbar-nav">
+                <Navbar.Toggle onClick={() => setNavIcon(!navIcon)} aria-controls="basic-navbar-nav">
                     {navIcon && <FontAwesomeIcon className='text-danger font-icon' icon={faTimes} />}
                 </Navbar.Toggle>
 
